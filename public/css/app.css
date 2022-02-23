@@ -5,6 +5,11 @@
 	margin-bottom: 1.5rem;
 }
 
+.product-title{
+	display: flex;
+	justify-content: space-between;
+}
+
 form{
 	margin-top: 2em;
 }
@@ -79,6 +84,9 @@ header{
 .product-body{
 	width: 50%;
 	padding: 1em 2em;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
 }
 
 .products .form-control{
@@ -141,3 +149,5 @@ span.collapsing{
 		height: 24px;
 	}
 }
+
+
